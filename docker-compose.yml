@@ -15,7 +15,7 @@ services:
   db:
     image: postgres:14
     environment:
-      POSTGRES_DB: iammusic
+      POSTGRES_DB: IAmMusic
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     volumes:
@@ -26,7 +26,7 @@ services:
   test_db:
     image: postgres:14
     environment:
-      POSTGRES_DB: iammusic_test
+      POSTGRES_DB: IAmMusic_test
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:
